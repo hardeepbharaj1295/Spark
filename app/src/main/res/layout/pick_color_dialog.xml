@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/mainDialog"
+        android:layout_margin="8dp"
+        android:background="@drawable/ic_rounded_corners_background"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/whiteLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_white"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="White"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/frolyLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_froly"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Froly"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/bananaLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_banana"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Banana"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/parisDaisyLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_paris_daisy"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Paris Daisy"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/reefLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_reef"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Reef"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/aeroBlueLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_aero_blue"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Aero Blue"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/hummingBirdLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_humming_bird"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Humming Bird"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/sailLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_sail"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Sail"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout >
+    <LinearLayout
+            android:id="@+id/mauveLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_mauve"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Mauve"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/lotusPinkLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_lotus_pink"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Lotus Pink"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/cashmereLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_cashmere"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Cashmere"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/athensGrayLinearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_margin="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_color_athens_gray"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+        <TextView
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                android:text="Athens Gray"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

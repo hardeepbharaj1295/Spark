@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/aListMainLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aListCardView">
+
+        <LinearLayout
+                android:id="@+id/aListInnerLinearLayout"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                    android:ellipsize="end"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:id="@+id/aListTitleTextView"
+                    android:textStyle="bold"
+                    tools:text="Title"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceListItem"/>
+
+            <TextView
+                    android:ellipsize="end"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    tools:text="Description \nDescription \nDescription \nDescription"
+                    android:id="@+id/aListDescriptionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:textAppearance="?attr/textAppearanceListItem"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

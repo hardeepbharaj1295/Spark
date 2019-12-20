@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_note"
+                android:icon="@drawable/ic_note"
+                android:title="Notes"/>
+        <item
+                android:id="@+id/nav_to_do"
+                android:icon="@drawable/ic_to_do_marked"
+                android:title="To-Do List"/>
+        <item
+                android:id="@+id/nav_events"
+                android:icon="@drawable/ic_event"
+                android:title="Events"/>
+      </group>
+
+
+    <item android:title="Safe Vaults">
+        <menu>
+            <item
+                    android:id="@+id/nav_archive"
+                    android:icon="@drawable/ic_archive_grey"
+                    android:title="Archive"/>
+            <item
+                    android:id="@+id/nav_diary"
+                    android:icon="@drawable/ic_diary_grey"
+                    android:title="Diary"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Backup">
+        <menu>
+            <item
+                    android:id="@+id/nav_import"
+                    android:icon="@drawable/ic_import_export"
+                    android:title="Import"/>
+
+            <item
+                android:id="@+id/nav_export"
+                android:icon="@drawable/ic_import_export"
+                android:title="Export"/>
+        </menu>
+    </item>
+
+
+
+
+</menu>
