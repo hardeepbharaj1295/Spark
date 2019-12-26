@@ -51,6 +51,6 @@
         </activity>
         <meta-data
             android:name="com.google.android.backup.api_key"
-            android:value="AIzaSyA4BeqBbr0a371ULwzzvUzJ3hcUpyLMF6E" />
+            android:value="ENTER YOUR KEY HERE" />
     </application>
 </manifest>
